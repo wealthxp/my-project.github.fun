@@ -1,0 +1,242 @@
+.body{
+    background-color: #black;
+    color: #white
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: w 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0px 20px 10px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-indez: 1000;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blue;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links:hover{
+    color: #333;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, slateblue 0%, skyblue 100%);
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hero-contact h1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero-contact p{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+
+.hero-contact .cta{
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    padding: 15px; 30px;
+    font-size: 2rem;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-contact .cta:hover{
+    background:#ff5252;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.1);
+}
+
+.container{
+    padding: 80px 0px;
+    background-color: #f8f9fa;
+}
+
+.container h2{
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    
+    /*box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);*/
+    
+}
+
+.about-content p{
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 20px;
+    margin: 10px;
+    
+   /*box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);*/
+}
+
+.services{
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding: 20px;
+    margin: 10px;
+    /*box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);*/
+}
+
+.income-growth{
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+border-radius: 10px;
+padding: 20px;
+    margin: 10px;
+   /* box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);*/
+}
+
+.investment{
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+border-radius: 10px;
+padding: 20px;
+    margin: 10px;
+   /* box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);*/
+}
+
+.financial{
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+border-radius: 10px;
+padding: 20px;
+    margin: 10px;
+   /* box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);*/
+}
+
+
+.retirement{
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+border-radius: 10px;
+padding: 20px;
+    margin: 10px;
+  /*  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);*/
+}
+
+.savings{
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: white;
+border-radius: 10px;
+padding: 20px;
+    margin: 10px;
+    /*box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);*/
+} 
+
+.contact-container{
+    padding: 80px 0px; 
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.contact-container p{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.contact-container h2{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+/*.contact-form{
+    flex: 1;
+}*/
+
+.contact-form{
+    /*display: flex;
+   flex-direction: column;*/
+   text-align: center;
+   padding: 12px 15px;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   font-size: 1rem;
+}
+
+.contact-form input{
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem:
+    
+}
+
+.contact-form textarea{
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem:
+    
+
+.contact-form button{
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 25px;
+}
+
+.@copy{
+    text-align: center;
+}
+  
